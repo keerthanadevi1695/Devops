@@ -1,0 +1,127 @@
+Relationship is mainted by Parent-Child between a commits.
+ 540  clear
+  541  ls
+  542  start .
+  543  clear
+  544  git status
+  545  ls
+  546  git add --all
+  547  git status
+  548  vi codefile.java
+  549  git status
+  550  git add --all
+  551  git status
+  552  git commit -m"adding file2" file2.txt
+  553  git status
+  554  git commit -m"all"
+  555  git status
+  556  ls
+  557  history
+  558  ls
+  559  git log
+  560  clear
+  561  git log
+  562  clear
+  563  git show 9b5430ec76e279044d0dedb5de637095f122df9f
+  564  history
+=================================================
+
+
+
+ 568  mkdir src
+  569  clear
+  570  git status
+  571  ls
+  572  touch src/readme.txt
+  573  git status
+  574  git add --all
+  575  clear
+  576  git commit -m"ading dir"
+  577  clear
+  578  ls
+  579  git mv file1.txt src
+  580  git status
+  581  ls
+  582  ls src/
+  583  clear
+  584  git status
+  585  ls
+  586  mv file2.txt src/
+  587  git status
+  588  git add --all
+  589  clear
+  590  git status
+  591  git commit -m"moving a file"
+  592  clear
+  593  ls
+  594  git mv file3.txt file33.txt
+  595  git commit -m"moving a file"
+  596  clear
+  597  ls
+  598  git log
+  599  clear
+  600  git log --oneline
+  601  ls
+  602  git rm file33.txt
+  603  git status
+  604  ls
+  605  git commit -m"deleting a file"
+  606  clear
+  607  ls
+  608  git status
+  609  git log --oneline
+  610  ls
+  611  ls
+  612  clear
+  613  git log --oneline
+  614  git checkout 446216b
+  615  clear
+  616  ls
+  617  git log --oneline
+  618  git checkout master
+  619  ls
+  620  git log --oneline
+  621  clear
+  622  history
+
+
+================
+git is NOT a file versioning 
+git is NOT a file system versioning 
+	 --------------------
+	collection of files/dirs
+==============================================
+- github
+	Cloud
+	Hosted Enterprise
+- gitlab
+	Cloud
+	Hosted Enterprise
+- bitbucket
+	Cloud
+	Hosted Enterprise
+- gerrit
+	Hosted Enterprise
+----------------------------
+		BEST UI exp
+		ISSUES
+		WIKI
+		RBAC
+		Hosting for multiple CR
+		----
+		---
+		----
+
+
+Step 1- Register and Validate an account at github.com
+
+Step 2 - Login and create a repo 
+
+Step 3 - generate a key| MIND IT | in laptop
+$ ssh-keygen
+
+You get key in C:\Users\kjsm466\.ssh
+- id_rsa
+- id_rsa.pub - -This key you would upload to https://github.com/settings/keys
+
+Step 4 - git push git@github.com:devopsschool-demo-temporary/29nov2021.git master
