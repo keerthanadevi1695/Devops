@@ -1,0 +1,116 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@keerthanadevi1695 
+devopsschool-training-notes
+/
+devops-az-2021
+Public
+0
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+devops-az-2021/day2.txt
+@devops-school
+devops-school Create day2.txt
+Latest commit 3e66208 15 minutes ago
+ History
+ 1 contributor
+73 lines (59 sloc)  1.58 KB
+   
+----------------------------------
+Branching & Merging Activities
+Git undoing
+gitignore
+gitstash
+-------------
+What is first Branch?
+--------------
+Master or main
+
+What is Branch?
+- Code line -
+
+Why we need Branch?
+How to see a branch?
+How to create a branch?
+How to work with a branch?
+
+--------------------------
+BRANCHING IS FREE
+- BRANCHING means COPY OF Entire Code into another line in SERVER -CLIENT based soft.
+- But in GIT
+	- 1 GB + 8KB
+--------------------------
+CODE
+	BRANCH 1 ---> MAIN RELEASE
+	BRANCH 2 ---> New Fea Release 
+	BRANCH 3 ---> Bug Fixing
+	BRANCH 4 ---> Minor Release
+	BRANCH 5 ---> Hotpatches
+
+master
+main
+
+- https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/branching-strategies-with-tfvc?view=azure-devops
+- https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops
+---------------------------------------------
+
+Types of Branch
+- Local Branch		Read - Write
+- Remote Branch		Read only
+- Temporary Branch	Read - Write (NOT RECOMMENDED TO USE)	
+
+ 501  git branch
+  502  ls
+  503  git branch -a
+  504  git branch fea1
+  505  git branch -a
+  506  ls
+  507  git checkout fea1
+  508  git branch -a
+  509  ls
+  510  touch fea1.txt;git add --all;git commit -m"adding fea1"
+  511  touch fea2.txt;git add --all;git commit -m"adding fea2"
+  512  clear
+  513  git log --oneline
+  514  git checkout master
+  515  ls
+  516  clear
+  517  git checkout fea1
+  518  ls
+  519  git checkout master
+  520  git log --oneline
+  521  git branch -a
+------------------------------------------
+
+git push git@github.com:devopsschool-demo-temporary/29nov2021.git fea1
+
+
+
+
+
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
